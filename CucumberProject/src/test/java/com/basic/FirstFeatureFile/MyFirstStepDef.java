@@ -16,7 +16,7 @@ public class MyFirstStepDef {
 	
 	@Given("^User need to be on Facebook login page$")
 	public void user_need_to_be_on_Facebook_login_page(){
-		System.setProperty("webdriver.chrome.driver", "C:\\selenium\\Browsers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\BrowserDrivers\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("https://www.facebook.com/");
 		System.out.println("opening URL");
